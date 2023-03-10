@@ -1,0 +1,160 @@
+header {
+    display: flex;
+    align-items: center;
+}
+img, logo { 
+    height: 100px;
+    margin: 10px;
+}
+h1 {
+    font-size: 40px;
+    margin: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: right  
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: blue;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  img {
+    max-width: 50%;
+    height: auto;
+    }
+   h2 {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  p {
+    text-align:center;
+  }
+  .order-button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .order-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .order-button:active {
+    background-color: green;
+    transform: translateY(2px);
+  }
+  .ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+   li {
+    margin: 10px 0;
+    padding-left: 30px;
+    position: relative;
+    font-size: 18px;
+    
+  }
+  
+li:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+  
+  }
+  
+  .fa-car:before {
+    content:icon;
+    color: yellow;
+}
+  
+  .fa-bell:before {
+    content: "icon";
+    color: yellow;
+  }
+.card {
+    box-shadow: black;
+    transition: 0.3s;
+    width: 100%;
+    margin: 20px;
+    border: black;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin-block: ;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .picture-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .picture {
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    }
+
+  .picture img {
+    background-color: yellow;
+    max-width: 100%;
+  }
+
+  .picture h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+
+  .picture p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+.card-header {
+  background-color: yellow;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: auto;
+  
+
+
+}
+  
+
+  
+  
